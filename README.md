@@ -47,4 +47,12 @@ Grab the latest build from [**the builds page**](https://flyinghead.github.io/fl
 
 Get fresh builds for your system [**on the builds page**](https://flyinghead.github.io/flycast-builds/).
 
-**New:** Now automated test results are available as well. 
+**New:** Now automated test results are available as well.
+
+### Build instructions:
+`git clone https://github.com/flyinghead/flycast.git`
+`cd flycast`
+`git submodule update --init --recursive`
+`mkdir build && cd build`
+`cmake ..`
+`make`
