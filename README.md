@@ -50,14 +50,14 @@ Get fresh builds for your system [**on the builds page**](https://flyinghead.git
 **New:** Now automated test results are available as well.
 
 ### Build instructions:
-`git clone https://github.com/flyinghead/flycast.git
+`git clone https://github.com/flyinghead/flycast.git`
 
-cd flycast
+`cd flycast`
 
-git submodule update --init --recursive
+`git submodule update --init --recursive`
 
-mkdir build && cd build
+`mkdir build && cd build`
 
-cmake ..
+`cmake ..`
 
-make`
+`make`
